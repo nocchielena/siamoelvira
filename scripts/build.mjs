@@ -354,6 +354,7 @@ function renderPicture(o, ctx) {
   const tag = link ? 'a' : 'div';
   const anim = animAttrs(o, ctx, id);
   const src = asset(pictureRemote(o));
+  if (!src) return ''; // placeholder picture with no image attached
   const isSvg = o.picture && o.picture.type === 'svg';
   const radius = [o.border_radius_tl, o.border_radius_tr, o.border_radius_br, o.border_radius_bl];
   const css = box(o, {
@@ -505,8 +506,19 @@ function renderForm(o, ctx) {
   };
   ctx.css.push(`#${id} .field{${style(field)}}`);
   ctx.css.push(`#${id} .field::placeholder{color:${rgba(f['text-color'], pct(f['text-opacity']))};opacity:1}`);
+  // The original submit button is white: invisible on pages with a white background. There we use the site's mint.
+  const pageBg = ctx.page.widgets.find((w) => w.type === 'background');
+  const light = (c) => /^f[a-f0-9]f[a-f0-9]f[a-f0-9]$/i.test(String(c || 'ffffff'));
+  // a coloured shape behind the form (e.g. the blue contact band on home) counts as the real background
+  const cx = o.x + o.w / 2, cy = o.y + o.h / 2;
+  const shapeBehind = ctx.page.widgets.map((w) => resolveWidget(w, ctx.layout, ctx.page._id)).some((s2) =>
+    s2.type === 'shape' && !s2.hidden && s2.bg_color && !light(s2.bg_color) && (s2.opacity ?? 1) > 0.5 &&
+    cx >= s2.x && cx <= s2.x + s2.w && cy >= s2.y && cy <= s2.y + s2.h);
+  const onLight = (!pageBg || light(pageBg.color)) && !shapeBehind;
+  const whiteBtn = /^f{6}$/i.test(String(bd.color)) && !bd['border-width'];
+  const mintBtn = whiteBtn && onLight;
   const btn = {
-    background: rgba(bd.color, pct(bd.opacity)),
+    background: mintBtn ? 'rgb(55,225,169)' : rgba(bd.color, pct(bd.opacity)),
     color: rgba(bd['text-color'], pct(bd['text-opacity'])),
     'border-radius': px(inherit(bd['border-radius'], f['border-radius'] ?? 0)),
     'box-shadow': bd['border-width'] ? `inset 0 0 0 ${px(bd['border-width'])} ${rgba(bd['border-color'], pct(bd['border-opacity']))}` : 'none',
@@ -517,7 +529,8 @@ function renderForm(o, ctx) {
   };
   ctx.css.push(`#${id} .submit{${style(btn)}}`);
   const hov = {};
-  if (bh.color && bh.color !== 'inherit') hov.background = rgba(bh.color, pct(inherit(bh.opacity, 100)));
+  if (mintBtn) hov.background = 'rgb(44,201,150)';
+  else if (bh.color && bh.color !== 'inherit') hov.background = rgba(bh.color, pct(inherit(bh.opacity, 100)));
   if (bh['text-color'] && bh['text-color'] !== 'inherit') hov.color = rgba(bh['text-color'], pct(inherit(bh['text-opacity'], 100)));
   if (Object.keys(hov).length) ctx.css.push(`@media (hover:hover){#${id} .submit:hover{${style(hov)}}}`);
 
@@ -583,12 +596,31 @@ function renderWidget(o, ctx) {
   }
 }
 
+// The original phone layout hides the shared footer (contact, tax code, social links) on every page
+// except home and "cosa facciamo", which have their own. We show it on the others, so the contacts
+// are always reachable on mobile.
+const PHONE_FOOTER_SKIP = new Set(['home', 'cosafacciamo']);
+const sharedFooter = pages.flatMap((p) => p.widgets).filter((w) => w.is_global && w.type !== 'background' && w.sticked !== 'top' && !w.fixed_position && w.type !== 'hotspot');
+
 function renderLayout(page, layout) {
   const ctx = new Ctx(page, layout);
-  const height = pageHeight(page, layout);
-  const widgets = page.widgets
-    .map((w) => resolveWidget(w, layout, page._id))
+  // On phones the rendered form is ~24px taller than its box in the original, so it covered the element below it.
+  const PHONE_FORM_SHIFT = 24;
+  const phoneForms = layout.name === 'phone'
+    ? page.widgets.map((w) => resolveWidget(w, layout, page._id)).filter((o) => o.type === 'form' && !o.hidden)
+    : [];
+  const height = pageHeight(page, layout) + (phoneForms.length ? PHONE_FORM_SHIFT : 0);
+  const addFooter = layout.name === 'phone' && !PHONE_FOOTER_SKIP.has(page.uri);
+  const widgets = [...page.widgets, ...(addFooter ? sharedFooter.filter((w) => !page.widgets.includes(w)) : [])]
+    .map((w) => {
+      const o = resolveWidget(w, layout, page._id);
+      return addFooter && sharedFooter.includes(w) ? { ...o, hidden: false } : o;
+    })
     .filter((o) => !o.hidden && o.type !== 'background')
+    .map((o) => {
+      const below = phoneForms.some((f) => o !== f && o.type !== 'form' && !o.fixed_position && !o.sticked && o.y >= f.y + f.h - 10);
+      return below ? { ...o, y: o.y + PHONE_FORM_SHIFT } : o;
+    })
     .map((o) => {
       // elements pinned to the bottom (e.g. the footer) keep their distance from the page end
       if (o.sticked === 'bottom' && o.sticked_margin != null && !o.fixed_position) return { ...o, y: height - o.sticked_margin - o.h };
