@@ -1,0 +1,13 @@
+{
+  "name": "siamoelvira",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sito di Elvira (siamoelvira.com) — versione statica indipendente.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "download": "node scripts/download-assets.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

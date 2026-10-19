@@ -1,0 +1,10 @@
+{
+  "_note": "Fine-tuning of letter spacing (px per character) for single text elements, so that line breaks match the original design. Key: element id, optionally followed by @desktop, @tablet or @phone.",
+  "66700b97356a810017f067df": -1.0,
+  "66490bec7030240044bc92b0@desktop": 0.3,
+  "661584b21459340013294d01@phone": 0.15,
+  "6671dec733724c0074d82bd2@phone": 0.3,
+  "6671e0138379fb004d9677c6@phone": 0.1,
+  "66490ef487d5a100509c5782@phone": 0.2,
+  "673e63ca3d93694900adfd29@phone": 0.2
+}

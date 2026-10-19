@@ -1,0 +1,1058 @@
+{
+ "title": "Elvira",
+ "description": "Siamo elvira, raccontiamo storie con la videocamera.",
+ "desktopWidth": 1024,
+ "phoneWidth": 320,
+ "opts": {
+  "arrows": false,
+  "menubutton": false,
+  "sharebutton": false,
+  "pagecounter": false,
+  "controlsontop": false,
+  "branding": false,
+  "endpage": false,
+  "endpagetype": "join",
+  "viewertype": "horizontal",
+  "slidein": false,
+  "scalewidth": 3600,
+  "projectinfo": false,
+  "hidden": true,
+  "allowindex": false,
+  "scalableviewer": true,
+  "lqip": false,
+  "phoneVerticalAlign": "top",
+  "useCustomCursor": false
+ },
+ "textStyles": {
+  "global": [],
+  "project": [
+   {
+    "name": "style-971512a9-23a0-4992-98f5-a9238b6601f0",
+    "label": "H1",
+    "tag": "h1",
+    "cssProperties": {
+     "fontFamily": "Graphik",
+     "fontWeight": "400",
+     "fontSize": 70,
+     "lineHeight": 66,
+     "letterSpacing": -4,
+     "fontStyle": "normal",
+     "color": "FFFFFF64",
+     "textAlign": "left"
+    },
+    "_id": "64b8fdd031c1940059b06ff1"
+   },
+   {
+    "name": "style-0f98a087-ae96-4a22-8b54-7f33ec64671b",
+    "label": "H2",
+    "tag": "h2",
+    "cssProperties": {
+     "fontFamily": "Graphik",
+     "fontWeight": "400",
+     "fontSize": 48,
+     "lineHeight": 54,
+     "letterSpacing": -3,
+     "fontStyle": "normal",
+     "color": "ffc72764",
+     "textAlign": "center"
+    },
+    "_id": "64b8fe08eea9ae0013e56248"
+   },
+   {
+    "name": "style-9af967a6-9b40-4727-8f69-f7a40748a77d",
+    "label": "H2 mob",
+    "tag": "p",
+    "cssProperties": {
+     "fontFamily": "Graphik",
+     "fontWeight": "400",
+     "fontSize": 26,
+     "lineHeight": 32,
+     "letterSpacing": -1,
+     "fontStyle": "normal",
+     "color": "ffc72764",
+     "textAlign": "center"
+    },
+    "_id": "64b903c04954b500136c1bf2"
+   },
+   {
+    "name": "style-3b40e9e3-2e1f-4d3b-ac63-5da09a742a38",
+    "label": "h2",
+    "tag": "p",
+    "cssProperties": {
+     "fontFamily": "Graphik",
+     "fontWeight": "500",
+     "fontSize": 24,
+     "lineHeight": 26,
+     "letterSpacing": -0.6,
+     "fontStyle": "normal",
+     "color": "161d2164",
+     "textAlign": "left"
+    },
+    "_id": "6499a93c44fa5600221e30cf"
+   },
+   {
+    "name": "style-433b0a7c-30b5-4359-8ca5-ad63e5a62b7b",
+    "label": "h2 mob",
+    "tag": "p",
+    "cssProperties": {
+     "fontFamily": "Graphik",
+     "fontWeight": "500",
+     "fontSize": 18,
+     "lineHeight": 22,
+     "letterSpacing": -0.4,
+     "fontStyle": "normal",
+     "color": "161d2164",
+     "textAlign": "center"
+    },
+    "_id": "64b90542dd688e0021aadece"
+   },
+   {
+    "name": "style-d6d4cf99-179c-464b-8d11-7877665d8949",
+    "label": "t1",
+    "tag": "p",
+    "cssProperties": {
+     "fontFamily": "Graphik",
+     "fontWeight": "500",
+     "fontSize": 12,
+     "lineHeight": 16,
+     "letterSpacing": -0.1,
+     "fontStyle": "normal",
+     "color": "F1F1F164",
+     "textAlign": "left"
+    },
+    "_id": "649d6c5311aa98003b89160e"
+   },
+   {
+    "name": "style-67784d79-eed3-4db5-9cca-baf3840e6d12",
+    "label": "t2",
+    "tag": "p",
+    "cssProperties": {
+     "fontFamily": "Graphik",
+     "fontWeight": "500",
+     "fontSize": 8,
+     "lineHeight": 16,
+     "letterSpacing": -0.1,
+     "fontStyle": "normal",
+     "color": "ffc72764",
+     "textAlign": "left"
+    },
+    "_id": "64b8ff229b5bd800623e4ad2"
+   },
+   {
+    "name": "style-fc84b15f-15fe-4a63-b7e1-6f48ca3c75a2",
+    "label": "menu",
+    "tag": "p",
+    "cssProperties": {
+     "fontFamily": "Graphik",
+     "fontWeight": 400,
+     "fontSize": 14,
+     "lineHeight": 16,
+     "letterSpacing": -0.1,
+     "fontStyle": "normal",
+     "color": "F1F1F164",
+     "textAlign": "center",
+     "fontVariationSettings": "'wght' 500"
+    },
+    "_id": "661c22bb1cdc3400280f21be"
+   },
+   {
+    "name": "style-ca265b36-fd9e-4078-bfdf-6c6f68d4735f",
+    "label": "New style",
+    "tag": "p",
+    "cssProperties": {
+     "fontFamily": "Graphik",
+     "fontWeight": "400",
+     "fontSize": 14,
+     "lineHeight": 16,
+     "letterSpacing": -0.1,
+     "fontStyle": "normal",
+     "color": "13121264",
+     "textAlign": "center",
+     "fontVariationSettings": "'wght' 500"
+    },
+    "_id": "661c22bb1cdc3400280f21bf"
+   },
+   {
+    "name": "style-7e1541b2-4fc5-4837-8c33-f378533a6e70",
+    "label": "Text/16",
+    "tag": "p",
+    "cssProperties": {
+     "fontFamily": "Graphik",
+     "fontWeight": "400",
+     "fontSize": 16,
+     "lineHeight": 20,
+     "letterSpacing": 0,
+     "fontStyle": "normal",
+     "color": "28361864",
+     "textDecoration": "none",
+     "textTransform": "none",
+     "textAlign": "left"
+    },
+    "_id": "61af6bde803e98002571d0bf"
+   },
+   {
+    "name": "style-77690b9a-45f6-4250-bf18-b8753775f080",
+    "label": "Logo 28",
+    "tag": "h1",
+    "cssProperties": {
+     "fontFamily": "NWT Bodoni",
+     "fontWeight": "700",
+     "fontSize": 28,
+     "lineHeight": 30,
+     "fontStyle": "normal",
+     "color": "FFFFFF64",
+     "textAlign": "left",
+     "letterSpacing": 0,
+     "paddingTop": 6
+    },
+    "_id": "6346c7ac09c7e2002175e9bc"
+   },
+   {
+    "name": "style-b1c259f9-735c-4a8e-9dc3-93dc00e01e9d",
+    "label": "Text 18",
+    "tag": "p",
+    "cssProperties": {
+     "fontFamily": "sftn",
+     "fontWeight": "400",
+     "fontSize": 18,
+     "lineHeight": 20,
+     "fontStyle": "normal",
+     "color": "ffffff64",
+     "paddingTop": 4,
+     "textAlign": "left",
+     "letterSpacing": -0.4,
+     "fontVariationSettings": "'wght' 400"
+    },
+    "_id": "6346c4c851cd25003d3f5709"
+   },
+   {
+    "name": "style-ab7d2e87-7760-40ed-907f-d5f35d4f2607",
+    "label": "Menu 14",
+    "tag": "p",
+    "cssProperties": {
+     "fontFamily": "sftn",
+     "fontWeight": "500",
+     "fontSize": 14,
+     "lineHeight": 20,
+     "fontStyle": "normal",
+     "color": "ffffff64",
+     "paddingTop": 4,
+     "textAlign": "right",
+     "letterSpacing": -0.4,
+     "fontVariationSettings": "'wght' 400"
+    },
+    "_id": "6347efc4bcd369001faaf59f"
+   },
+   {
+    "name": "style-8c3d28eb-aa07-4799-8aa0-2e5cae0876be",
+    "label": "Title",
+    "tag": "h1",
+    "cssProperties": {
+     "fontFamily": "NWT Bodoni",
+     "fontWeight": "400",
+     "fontSize": 20,
+     "lineHeight": 20,
+     "letterSpacing": -0.8,
+     "fontStyle": "normal",
+     "color": "00000064",
+     "textTransform": "uppercase",
+     "textAlign": "center"
+    },
+    "_id": "60feb2803283b000625bc82d"
+   }
+  ]
+ },
+ "linkStyles": {
+  "global": [],
+  "project": [
+   {
+    "style": {
+     "link": {
+      "textColor": "0080FF64",
+      "type": "Solid",
+      "color": "0080FF64",
+      "size": 1,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "0080FF64",
+      "type": "None",
+      "color": "0080FF64",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "0080FF64",
+      "type": "None",
+      "color": "0080FF64",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-1",
+    "label": "Default Link Style",
+    "_id": "64999d9df537600013e4054c"
+   },
+   {
+    "style": {
+     "link": {
+      "textColor": "13121264",
+      "type": "None",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "37E1A950",
+      "type": "None",
+      "color": "37E1A964",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "00000064",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-style-1b374e7b-6c28-489c-b291-fb8b9d4759be",
+    "label": "Menu",
+    "_id": "66144fc0d2b3a6006a051a23"
+   },
+   {
+    "style": {
+     "link": {
+      "textColor": "13121264",
+      "type": "None",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "13121245",
+      "type": "None",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "00000064",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-style-ca025cb4-848b-4a80-94d3-b3f8ec052ad3",
+    "label": "New Style",
+    "_id": "66144fc0d2b3a6006a051a24"
+   },
+   {
+    "style": {
+     "link": {
+      "textColor": "FFFFFF64",
+      "type": "Solid",
+      "color": "FFFFFF64",
+      "size": 2,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "37E1A950",
+      "type": "Solid",
+      "color": "37E1A964",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "00000064",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-style-ca4a0601-c855-448a-9c04-a5389c208327",
+    "label": "CTA (white)",
+    "_id": "6644f324ad0a0c004b89905e"
+   },
+   {
+    "style": {
+     "link": {
+      "textColor": "00000064",
+      "type": "None",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "8C52FF50",
+      "type": "Solid",
+      "color": "8C52FF64",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "00000064",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-style-1997c112-4cde-4855-b38a-50712f53123b",
+    "label": "CTA (Copy)",
+    "_id": "6644f324ad0a0c004b89905e"
+   },
+   {
+    "style": {
+     "link": {
+      "textColor": "161D2164",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "00000032",
+      "type": "None",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "00000064",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-style-291a39ab-31b6-4aa1-9c40-5c5f885d3e4a",
+    "label": "CTA PAYPAL",
+    "_id": "64c8d4eb2a6af600242496c7"
+   },
+   {
+    "style": {
+     "link": {
+      "textColor": "FFFFFF64",
+      "type": "Solid",
+      "color": "FFFFFF64",
+      "size": 1,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "37E1A950",
+      "type": "Solid",
+      "color": "37E1A964",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "00000064",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-style-5aa45b9a-ac2a-4aeb-8964-28a8313d0616",
+    "label": "CTA (Copy)",
+    "_id": "6644f324ad0a0c004b89905e"
+   },
+   {
+    "style": {
+     "link": {
+      "textColor": "00000064",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "8C52FF50",
+      "type": "Solid",
+      "color": "8C52FF64",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "00000064",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-style-107b3ab6-a246-4ae4-a813-3f7cf0237263",
+    "label": "CTA",
+    "_id": "6644f324ad0a0c004b89905e"
+   },
+   {
+    "style": {
+     "link": {
+      "textColor": "FFFFFF64",
+      "type": "None",
+      "color": "FFFFFF64",
+      "size": 1,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "FFFFFF46",
+      "type": "Solid",
+      "color": "FFFFFF64",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "00000064",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-style-c9319e01-5aa9-437a-bf34-9a73f05aef82",
+    "label": "footer link white",
+    "_id": "62ad973ca8915b0039c050a0"
+   },
+   {
+    "style": {
+     "link": {
+      "textColor": "00000064",
+      "type": "None",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "00000046",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "00000064",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-style-77fab591-ba46-4a28-bef2-7b63966239f2",
+    "label": "footer link",
+    "_id": "62ad973ca8915b0039c050a0"
+   },
+   {
+    "style": {
+     "link": {
+      "textColor": "00000064",
+      "type": "None",
+      "color": "0080FF64",
+      "size": 1,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "51515164",
+      "type": "None",
+      "color": "0080FF64",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "0080FF64",
+      "type": "None",
+      "color": "0080FF64",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-style-97010c34-430c-4121-942d-6f6bbb0efd82",
+    "label": "schede cosa facc",
+    "_id": "618ce0db4e3215002aac19b5"
+   },
+   {
+    "style": {
+     "link": {
+      "textColor": "FFFFFF30",
+      "type": "None",
+      "color": "FFFFFF64",
+      "size": 1,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "00000064",
+      "type": "None",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "00000064",
+      "type": "None",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-style-e4e25173-a0d8-4449-b28b-e4adf1c869a1",
+    "label": "New Style",
+    "_id": "60febca050700935afa7d330"
+   },
+   {
+    "style": {
+     "link": {
+      "textColor": "FFFFFF64",
+      "type": "Solid",
+      "color": "FFFFFF64",
+      "size": 1,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "FFFFFF32",
+      "type": "None",
+      "color": "FFFFFF64",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "00000064",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-style-585b9156-b5fb-46bd-b8df-f2aead8b6e2b",
+    "label": "New style white",
+    "_id": "64c8d4eb2a6af600242496c7"
+   },
+   {
+    "style": {
+     "link": {
+      "textColor": "161D2164",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "00000032",
+      "type": "None",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "00000064",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-style-300c46da-3aea-4561-94a3-5646ef2b535f",
+    "label": "New Style",
+    "_id": "64c8d4eb2a6af600242496c7"
+   },
+   {
+    "style": {
+     "link": {
+      "textColor": "FFFFFF64",
+      "type": "None",
+      "color": "FFFFFF64",
+      "size": 1,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "37E1A950",
+      "type": "Solid",
+      "color": "37E1A964",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "D8D7D764",
+      "type": "Solid",
+      "color": "D8D7D764",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-style-4e690b2d-7a96-499d-9f65-18c00dbf5432",
+    "label": "cta menu hamb",
+    "_id": "6743963164c0323a41b5fbe2"
+   },
+   {
+    "style": {
+     "link": {
+      "textColor": "37E1A964",
+      "type": "Solid",
+      "color": "37E1A964",
+      "size": 1,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "00000050",
+      "type": "Solid",
+      "color": "00000000",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "00000064",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-style-2689ca72-2b60-4c5e-8823-17c200639d9d",
+    "label": "New Style",
+    "_id": "6745e6b4a9d9b191d5e929ba"
+   },
+   {
+    "style": {
+     "link": {
+      "textColor": "FFFFFF64",
+      "type": "None",
+      "color": "00000000",
+      "size": 1,
+      "padding": 0
+     },
+     "hover": {
+      "textColor": "37E1A950",
+      "type": "None",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     },
+     "current": {
+      "textColor": "00000064",
+      "type": "Solid",
+      "color": "00000064",
+      "size": 1,
+      "padding": 0
+     }
+    },
+    "name": "link-style-72037c8d-10b4-4d81-8c35-3e9fc52c61ef",
+    "label": "titolo aly in hp",
+    "_id": "674710b402cc1546a967fde6"
+   }
+  ]
+ },
+ "pages": [
+  {
+   "_id": "661423af862aaf00130536f1",
+   "type": "scroll",
+   "height": 3739,
+   "hidden": false,
+   "isPrivate": false,
+   "sectionscroll": false,
+   "used_autolayout": true,
+   "arrows_color": "white",
+   "num": 1,
+   "viewport_phone_portrait": {
+    "enabled": true,
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-3a14c51e-b726-49d5-b90a-0c122fd97c3a.jpg",
+    "height": 3863,
+    "type": "scroll"
+   },
+   "mid": "661423af862aaf00130536ec",
+   "num_id": 21913330,
+   "parentPage": null,
+   "title": "Homepage intro",
+   "uri": "home",
+   "viewport_tablet_portrait": {
+    "enabled": true,
+    "height": 3752,
+    "type": "scroll",
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-45b1471d-50cb-4304-8b5d-47ea2f5a9dce.jpg"
+   },
+   "children": [],
+   "pagePath": "home",
+   "pageNestedNum": "1"
+  },
+  {
+   "_id": "661584b21459340013294cf8",
+   "type": "scroll",
+   "height": 1424,
+   "hidden": false,
+   "isPrivate": false,
+   "sectionscroll": false,
+   "used_autolayout": false,
+   "arrows_color": "white",
+   "num": 2,
+   "viewport_phone_portrait": {
+    "enabled": true,
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-dff4ba29-4a78-4213-9ece-7ad196928f92.jpg",
+    "height": 1534,
+    "type": "scroll"
+   },
+   "mid": "661423af862aaf00130536ec",
+   "parentPage": null,
+   "num_id": 21924388,
+   "uri": "rutasummerfilmschool",
+   "title": "Ruta Summer Film School",
+   "viewport_tablet_portrait": {
+    "enabled": true,
+    "height": 1228,
+    "type": "scroll",
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-574229b9-a36a-4d73-9fe3-5fccd9fc047b.jpg"
+   },
+   "children": [],
+   "pagePath": "rutasummerfilmschool",
+   "pageNestedNum": "2"
+  },
+  {
+   "_id": "664909ad4fce9000546e0308",
+   "type": "scroll",
+   "height": 1873,
+   "hidden": false,
+   "isPrivate": false,
+   "sectionscroll": false,
+   "used_autolayout": false,
+   "arrows_color": "white",
+   "num": 3,
+   "viewport_phone_portrait": {
+    "enabled": true,
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-0a68b1aa-7a67-4fa3-bb00-693567f1486c.jpg",
+    "height": 2250,
+    "type": "scroll"
+   },
+   "mid": "661423af862aaf00130536ec",
+   "parentPage": null,
+   "title": "Le ragazze stanno bene",
+   "num_id": 22297785,
+   "uri": "leragazzestannobene",
+   "viewport_tablet_portrait": {
+    "enabled": true,
+    "height": 1868,
+    "type": "scroll",
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-f94c837c-1074-4b43-886a-f2b89158aeb0.jpg"
+   },
+   "children": [],
+   "pagePath": "leragazzestannobene",
+   "pageNestedNum": "3"
+  },
+  {
+   "_id": "664914e2a0fd6b0014b18f7b",
+   "type": "scroll",
+   "height": 2734,
+   "hidden": false,
+   "isPrivate": false,
+   "sectionscroll": false,
+   "used_autolayout": true,
+   "arrows_color": "white",
+   "num": 4,
+   "viewport_phone_portrait": {
+    "enabled": true,
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-2a10b7f9-ac55-4122-9aa5-33390784eb9e.jpg",
+    "height": 3494,
+    "type": "scroll"
+   },
+   "mid": "661423af862aaf00130536ec",
+   "parentPage": null,
+   "title": "Attività di formazione",
+   "num_id": 22298049,
+   "uri": "formazione",
+   "viewport_tablet_portrait": {
+    "enabled": true,
+    "height": 2377,
+    "type": "scroll",
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-942a6c7d-48ca-4380-a217-b658df4d19e4.jpg"
+   },
+   "children": [],
+   "pagePath": "formazione",
+   "pageNestedNum": "4"
+  },
+  {
+   "_id": "66490bec7030240044bc92a9",
+   "type": "scroll",
+   "height": 2518,
+   "hidden": false,
+   "isPrivate": false,
+   "sectionscroll": false,
+   "used_autolayout": true,
+   "arrows_color": "white",
+   "num": 5,
+   "viewport_phone_portrait": {
+    "enabled": true,
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-3a44d1fa-55d8-4211-a672-5e553ab999ab.jpg",
+    "height": 2599,
+    "type": "scroll"
+   },
+   "mid": "661423af862aaf00130536ec",
+   "parentPage": null,
+   "title": "Produzione video",
+   "num_id": 22297847,
+   "uri": "produzionevideo",
+   "viewport_tablet_portrait": {
+    "enabled": true,
+    "height": 2331,
+    "type": "scroll",
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-13952f88-3a6c-4fd4-a288-eb283deb8d40.jpg"
+   },
+   "children": [],
+   "pagePath": "produzionevideo",
+   "pageNestedNum": "5"
+  },
+  {
+   "_id": "66490dab22f8c1006817516b",
+   "type": "scroll",
+   "height": 1573,
+   "hidden": false,
+   "isPrivate": false,
+   "sectionscroll": false,
+   "used_autolayout": true,
+   "arrows_color": "white",
+   "num": 6,
+   "viewport_phone_portrait": {
+    "enabled": true,
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-8947a524-269e-480a-ab4f-800d12e49d64.jpg",
+    "height": 1535,
+    "type": "scroll"
+   },
+   "mid": "661423af862aaf00130536ec",
+   "parentPage": null,
+   "title": "Elvira film club",
+   "num_id": 22297894,
+   "uri": "elvirafilmclub",
+   "viewport_tablet_portrait": {
+    "enabled": true,
+    "height": 1477,
+    "type": "scroll",
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-1c56025e-cad0-4108-bfd9-c49266660cba.jpg"
+   },
+   "children": [],
+   "pagePath": "elvirafilmclub",
+   "pageNestedNum": "6"
+  },
+  {
+   "_id": "6649194b125982007100f475",
+   "type": "scroll",
+   "height": 3305,
+   "hidden": false,
+   "isPrivate": false,
+   "sectionscroll": false,
+   "used_autolayout": true,
+   "arrows_color": "white",
+   "num": 7,
+   "viewport_phone_portrait": {
+    "enabled": true,
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-5ec47cab-f1c7-4fac-8ae1-7e21a7f438ed.jpg",
+    "height": 3233,
+    "type": "scroll"
+   },
+   "mid": "661423af862aaf00130536ec",
+   "parentPage": null,
+   "title": "About Last Year",
+   "num_id": 22298200,
+   "uri": "aboutlastyearfilm",
+   "viewport_tablet_portrait": {
+    "enabled": true,
+    "height": 3379,
+    "type": "scroll",
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-e33ad905-e4c8-466b-b447-641500444905.jpg"
+   },
+   "children": [],
+   "pagePath": "aboutlastyearfilm",
+   "pageNestedNum": "7"
+  },
+  {
+   "_id": "6644f27de3b578005f540f77",
+   "type": "scroll",
+   "height": 2149,
+   "hidden": false,
+   "isPrivate": false,
+   "sectionscroll": false,
+   "used_autolayout": true,
+   "arrows_color": "black",
+   "num": 8,
+   "mid": "661423af862aaf00130536ec",
+   "num_id": 22269119,
+   "parentPage": null,
+   "uri": "cosafacciamo",
+   "title": "cosafacciamo",
+   "viewport_phone_portrait": {
+    "enabled": true,
+    "height": 3299,
+    "type": "scroll",
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-6cedf2a3-cc5f-4304-8d40-0a12f6ff5899.jpg"
+   },
+   "viewport_tablet_portrait": {
+    "enabled": true,
+    "height": 2073,
+    "type": "scroll",
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-86761ba4-050c-453f-a2a2-686a5333f311.jpg"
+   },
+   "children": [],
+   "pagePath": "cosafacciamo",
+   "pageNestedNum": "8"
+  },
+  {
+   "_id": "6615a5152a262d0055f212af",
+   "type": "scroll",
+   "height": 3628,
+   "hidden": false,
+   "isPrivate": false,
+   "sectionscroll": false,
+   "used_autolayout": true,
+   "arrows_color": "white",
+   "num": 9,
+   "mid": "661423af862aaf00130536ec",
+   "num_id": 21925642,
+   "parentPage": null,
+   "title": "chi siamo",
+   "uri": "chisiamo",
+   "viewport_phone_portrait": {
+    "enabled": true,
+    "height": 3588,
+    "type": "scroll",
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-da8ae790-f363-41bb-8b6d-116f2cd391c0.jpg"
+   },
+   "viewport_tablet_portrait": {
+    "enabled": true,
+    "height": 3530,
+    "type": "scroll",
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-fe1e9fae-3961-45c7-b5ea-1ea904200c49.jpg"
+   },
+   "children": [],
+   "pagePath": "chisiamo",
+   "pageNestedNum": "9"
+  },
+  {
+   "_id": "673e63ca3d93694900adfd22",
+   "mid": "661423af862aaf00130536ec",
+   "num": 10,
+   "title": "Sostienici",
+   "type": "scroll",
+   "height": 1249,
+   "hidden": false,
+   "isPrivate": false,
+   "sectionscroll": false,
+   "used_autolayout": false,
+   "viewport_tablet_portrait": {
+    "enabled": true,
+    "height": 1177,
+    "type": "scroll",
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-073d7f4c-4bc5-434b-b58e-ec739dad0a95.jpg"
+   },
+   "viewport_phone_portrait": {
+    "enabled": true,
+    "screenshot": "https://c-p.rmcdn.net/65f976782bdbcb0013ced1d2/4711910/Screenshot-5806b6bd-9473-49b8-8a12-46270ee17e6f.jpg",
+    "height": 1515,
+    "type": "scroll"
+   },
+   "arrows_color": "white",
+   "parentPage": null,
+   "num_id": 23978505,
+   "uri": "sostienici",
+   "children": [],
+   "pagePath": "sostienici",
+   "pageNestedNum": "10"
+  }
+ ]
+}
